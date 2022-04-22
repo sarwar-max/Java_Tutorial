@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo span {
+  color: blue;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-serch {
+  width: 25rem;
+}
+
+/* Problem */
+.right-content {
+  position: absolute;
+  right: 0;
+  padding-right: 10rem;
+}
+
+.carousel {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.carousel-img {
+  padding: 0px 30px;
+}
+
+.carousel-img img {
+  border-radius: 10px;
+  height: 20rem;
+}
+
+.internship-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scrollable_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+}
+
+.scrollable_cards .img-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.scrollable_cards .img-txt:hover {
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.4);
+}
+
+.view_all_cta_container_20_more {
+  text-align: center;
+}
+
+.training-section {
+  padding-top: 20px;
+}
+
+.footer-cols {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.border-line {
+  border-bottom: 2px solid #807e7e;
+  margin: 0px 8rem 0px 8rem;
+}
+
+.border-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 0px;
+}
+
+.playstore {
+  border: 1px solid #807e7e;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.social-media i {
+  padding-right: 20px;
+}
+
+/* Media query */
+@media (max-width: 550px) {
+  .input-serch {
+    width: 18rem;
+  }
+
+  /* Problem Solved */
+  .right-content {
+    position: relative;
+  }
+
+  .training-section {
+    padding-top: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+  .footer-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .border-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .playstore {
+    border: 1px solid #807e7e;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .social-media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+}
